@@ -1,0 +1,46 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Credentials
+.env
+*.credentials.json
+
+# Generated docs
+*.docx
+EXECUTION_PLAN.md
+SESSION_CONTEXT.md
+data/ev_population_data.json
+
+# Secrets - NEVER commit these
+*.p8
+*.pub
+.env
+snowflake_key*
+
+# Temp files
+~$*
+SESSION_CONTEXT.md
+EXECUTION_PLAN.md
+*.docx~
+
+# Interview prep (keep local only)
+docs/COCO_*
+docs/DEMO_SCRIPT.md
+docs/NOTEBOOK_CELLS.md
+docs/*.pptx
+docs/*.pdf
+docs/*.ipynb
+docs/slide-deck.html
+docs/.*bkp
+docs/~$*
